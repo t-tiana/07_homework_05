@@ -142,7 +142,6 @@ function processSec() {
             const RESULT = `${HOURSRESULT} : ${MINUTESRESULT} : ${SECONDSRESULT}`;
             alert(RESULT);
         }
-    return false;
 }
 
 // 7. 4 відмінності ерров фанкшина від звичайної функції.
