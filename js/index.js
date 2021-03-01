@@ -139,7 +139,7 @@ function processSec() {
             const HOURSRESULT = h.toString().padStart(2, '0');
             const MINUTESRESULT = min.toString().padStart(2, '0');
             const SECONDSRESULT = sec.toString().padStart(2, '0');
-            const RESULT = `${HOURSRESULT} : ${MINUTESRESULT} : ${SECONDSRESULT}`;
+            const RESULT = `${HOURSRESULT}:${MINUTESRESULT}:${SECONDSRESULT}`;
             alert(RESULT);
         }
 }
